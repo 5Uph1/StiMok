@@ -5,7 +5,7 @@ const Tentang = () => {
     <div className="Tentang container mx-auto xl:px-20 mb-10 xl:min-h-110 md:min-h-203 min-h-120">
       <div className='rounded-xl p-4 my-8 max-w-6xl mx-auto md:flex gap-6'>
         <div className='w-80 h-fit flex-shrink-0 bg-gray-200 rounded-xl p-3 shadow-lg hidden md:block'>
-          <img src="./foto goat.jpg" alt="Tim Mok" className='rounded-xl' />
+          <img src="./foto goat.jpg" alt="Tim Mok" className='rounded-xl' loading="lazy" />
           <h1 className='mt-4 text-center'>Mansur/Suria Andi <span className='text-sky-500 font-bold'>&</span> Alif Sufi</h1>
         </div>
         <div className='bg-gray-200 w-full rounded-xl shadow-xl'>
